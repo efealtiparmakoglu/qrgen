@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrgen"
+version = "1.0.0"
+description = "From-scratch QR Code generator for the terminal and SVG: Reed-Solomon, BCH codes, mask scoring — zero dependencies"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["qr", "qrcode", "reed-solomon", "terminal", "svg"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+qrgen = "qrgen.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qrgen*"]
