@@ -22,4 +22,4 @@ jobs:
         run: |
           python3 -m qrgen.cli "smoke test" --ascii -q 2
           python3 -m qrgen.cli "svg" -o /tmp/out.svg
-          python3 -m qrgen.cli --version
+          python3 -m qrgen.cli -V

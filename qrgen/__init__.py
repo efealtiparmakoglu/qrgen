@@ -9,6 +9,7 @@ Public API:
     Matrix.render_ascii() -> str
     Matrix.render_svg() -> str
 """
+from __future__ import annotations
 
 from .matrix import Matrix, make
 

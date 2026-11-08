@@ -2,6 +2,7 @@
 systematic encoding where each message polynomial is extended with `degree`
 check symbols such that the whole codeword polynomial is divisible by the
 RS generator polynomial of that degree."""
+from __future__ import annotations
 
 from .gf import EXP, mul
 

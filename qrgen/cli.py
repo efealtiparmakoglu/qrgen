@@ -1,4 +1,5 @@
 """Command line interface for qrgen."""
+from __future__ import annotations
 
 import argparse
 import sys

@@ -4,6 +4,7 @@ Design note: only byte mode is implemented (mode indicator 0b0100). UTF-8
 bytes cover every text input, numeric/alphanumeric modes would only shave
 bit count for restricted alphabets.
 """
+from __future__ import annotations
 
 from . import spec
 from .rs import remainder as rs_remainder

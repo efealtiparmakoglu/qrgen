@@ -1,5 +1,6 @@
 """Golden regression: the exact module matrix for 'HELLO WORLD' at M/v1
 (zbar-verified). If the codec ever changes output, this test fails loudly."""
+from __future__ import annotations
 
 from qrgen import make
 

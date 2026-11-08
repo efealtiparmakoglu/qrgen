@@ -3,6 +3,7 @@ the eight masks with their penalty scoring, and format/version placement.
 
 Rows and columns are indexed [row][col], top-left origin, matching the spec.
 """
+from __future__ import annotations
 
 from dataclasses import dataclass
 

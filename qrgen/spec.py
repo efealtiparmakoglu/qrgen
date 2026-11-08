@@ -1,6 +1,7 @@
 """QR Code specification tables: raw codeword counts, error-correction block
 layout, alignment pattern coordinates, and the BCH format/version codes.
 Byte-mode only by design (this tool encodes text, and UTF-8 is bytes)."""
+from __future__ import annotations
 
 from typing import Final
 

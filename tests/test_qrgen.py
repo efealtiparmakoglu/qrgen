@@ -4,6 +4,7 @@ An optional scanner-level conformance suite lives in scripts/conformance.py;
 it needs pyzbar+pillow and is skipped here so the core suite stays
 dependency-free.
 """
+from __future__ import annotations
 
 import sys
 import unittest

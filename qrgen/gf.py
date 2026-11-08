@@ -1,5 +1,6 @@
 """GF(256) arithmetic for Reed-Solomon, polynomial 0x11D (x^8 + x^4 + x^3 +
 x^2 + 1). Log/exp tables make multiplication a couple of additions."""
+from __future__ import annotations
 
 EXP = [0] * 512
 LOG = [0] * 256
